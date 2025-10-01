@@ -13,24 +13,24 @@ A();
 
 void PrintLetters()
 {
-    Console.WriteLine("A");
-    Console.WriteLine("B");
-    Console.WriteLine("C");
+  Console.WriteLine("A");
+  Console.WriteLine("B");
+  Console.WriteLine("C");
 }
 
 void A()
 {
-    Console.WriteLine("Function A");
-    B();
-    C();
+  Console.WriteLine("Function A");
+  B();
+  C();
 }
 
 void B()
 {
-    Console.WriteLine("Function B");
+  Console.WriteLine("Function B");
 }
 
 void C()
 {
-   Console.WriteLine("Function C"); 
+  Console.WriteLine("Function C");
 }
